@@ -1,4 +1,47 @@
-body {
+* {
+    background-color: #CAD2C5;
+    /* color: #2F3E46; */
+}
+
+header {
+    font-family: Impact, sans-serif;
+    padding: 20px;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 50px;
+}
+
+header nav{
+    float: right;
+    padding: 35px;
+    /* margin-right: 20px; */
+}
+
+header nav ul {
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li button {
+    font-size: larger;
+    font-family: Impact, sans-serif;
+    margin-right: 50px;
+}
+
+
+
+
+
+
+
+
+/* body {
     background-color: #CAD2C5;
     color: #2F3E46;
     margin: 0;
@@ -344,4 +387,6 @@ article:nth-of-type(3) {
 
     footer {
         margin: 10px;
+        float: center;
     }
+} */
