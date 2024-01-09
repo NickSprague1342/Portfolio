@@ -1,6 +1,6 @@
-* {
+body {
     background-color: #CAD2C5;
-    /* color: #2F3E46; */
+    color: #2F3E46;
 }
 
 header {
@@ -34,7 +34,21 @@ header nav ul li button {
     margin-right: 50px;
 }
 
+main article {
+    display: flex;
+}
 
+.mainStyling {
+margin-bottom: 20px;
+padding: 50px;
+height: 300px;
+/* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+background-color: #84A98C;
+}
+
+.mainStyling img {
+    max-height: 200px;
+}
 
 
 
