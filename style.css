@@ -16,7 +16,7 @@ header h1 {
 header nav{
     float: right;
     padding: 35px;
-    /* margin-right: 20px; */
+    margin-right: 20px;
 }
 
 header nav ul {
@@ -46,10 +46,19 @@ height: 300px;
 background-color: #84A98C;
 }
 
-.mainStyling img {
-    max-height: 200px;
+.float-right {
+    float: right;
+    margin: 25px;
 }
 
+.mainStyling img {
+    max-height: 200px;
+    display: inline-block;
+}
+
+.viewMyWork {
+    list-style-type: none;
+}
 
 
 
