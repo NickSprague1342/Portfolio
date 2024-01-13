@@ -98,9 +98,9 @@ background-color: #84A98C;
 }
 
 
-/* @media screen and (width<648px){
+@media screen and (width<648px){
     header nav ul {
         display: flex;
         flex-direction: column;
     }
-/* } */ */
+}
