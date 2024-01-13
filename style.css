@@ -87,12 +87,18 @@ background-color: #84A98C;
 .contact-info {
     display: flex;
     justify-content: center;
+
+}
+
+.contact-info li {
+    display: inline-block;
+    margin: 40px;
 }
 
 .mainStyling-contact {
     margin-bottom: 20px;
-padding: 50px;
-min-height: 300px;
+padding: 20px;
+min-height: 50px;
 /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
 background-color: #84A98C;
 }
@@ -104,3 +110,26 @@ background-color: #84A98C;
         flex-direction: column;
     }
 }
+
+@media screen and (width<1095px) {
+    .contact-info li {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+}
+
+/* trying to format for responsive contact info section */
+
+/* @media screen and (width<1095px) {
+    .contact-info {
+        display: flex;
+        flex-wrap: wrap;
+    }
+} */
+
+/* @media screen and (width<1095px) {
+    .contact-info li {
+    column-count: 2;
+    }
+} */
