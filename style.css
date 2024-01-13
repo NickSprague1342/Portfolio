@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     background-color: #CAD2C5;
     color: #2F3E46;
@@ -14,7 +19,7 @@ header h1 {
 }
 
 header nav{
-    float: right;
+    /* float: right; */
     padding: 35px;
     margin-right: 20px;
 }
@@ -34,22 +39,26 @@ header nav ul li button {
     margin-right: 50px;
 }
 
-main article {
+/* main article {
     display: flex;
-}
+} */
 
 .mainStyling {
 margin-bottom: 20px;
 padding: 50px;
-height: 200px;
+min-height: 300px;
 /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
 background-color: #84A98C;
+display: flex;
+flex-direction: row-reverse;
+justify-content: center;
+flex-wrap: wrap-reverse;
 }
 
 .mainStyling-mywork {
     margin-bottom: 20px;
 padding: 50px;
-height: 400px;
+/* height: 400px; */
 /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
 background-color: #84A98C;
 }
@@ -76,4 +85,25 @@ background-color: #84A98C;
 .viewMyWork li {
     display: inline-block;
     margin: 40px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+}
+
+.mainStyling-contact {
+    margin-bottom: 20px;
+padding: 50px;
+min-height: 300px;
+/* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+background-color: #84A98C;
+}
+
+
+@media screen and (width<648px){
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+    }
 }
