@@ -11,10 +11,11 @@ body {
 header {
     font-family: Impact, sans-serif;
     padding: 20px;
+    /* display: inline-block; */
 }
 
 header h1 {
-    display: inline-block;
+    /* display: inline-block; */
     font-size: 50px;
 }
 
@@ -38,10 +39,6 @@ header nav ul li button {
     font-family: Impact, sans-serif;
     margin-right: 50px;
 }
-
-/* main article {
-    display: flex;
-} */
 
 .mainStyling {
 margin-bottom: 20px;
@@ -101,9 +98,9 @@ background-color: #84A98C;
 }
 
 
-@media screen and (width<648px){
+/* @media screen and (width<648px){
     header nav ul {
         display: flex;
         flex-direction: column;
     }
-}
+/* } */ */
