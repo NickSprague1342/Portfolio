@@ -4,8 +4,9 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #CAD2C5;
-    color: #2F3E46;
+    background-color: #292a29d8;
+    /* background-image: url(https://mycourtsqa.in.gov/WebResource.axd?d=LDFrYvvA24WuhnQ6dYbhK7socT_mdIyyhnjkuobZ9lli5krHVkON65ROdx1kh6bnxnqpNU8heA_zJxSt_7-txt1rkmHJocLwX4rzeAkObrI9mpfGv6FiMgc0OIlLSXhtuqdBAGs4yjUs5PQhKSfpHye2uE7fYbeCpMJFo8zqwiImkl6eYH9Hp6mQRCo0YruQopuHoQ2&t=638053327334674500) */
+    color: #000000;
 }
 
 header {
@@ -45,7 +46,7 @@ margin-bottom: 20px;
 padding: 50px;
 min-height: 300px;
 /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
-background-color: #84A98C;
+background-color: #383a399a;
 display: flex;
 flex-direction: row-reverse;
 justify-content: center;
@@ -57,7 +58,8 @@ flex-wrap: wrap-reverse;
 padding: 50px;
 /* height: 400px; */
 /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
-background-color: #84A98C;
+background-color: #383a399a;
+;
 }
 
 .float-right {
@@ -100,7 +102,7 @@ background-color: #84A98C;
 padding: 20px;
 min-height: 50px;
 /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
-background-color: #84A98C;
+background-color: #383a399a;
 }
 
 
