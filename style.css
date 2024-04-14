@@ -84,6 +84,16 @@ background-color: #383a399a;
 .viewMyWork li {
     display: inline-block;
     margin: 40px;
+    text-decoration: none;
+}
+
+#hvNoUl {
+    text-decoration: none;
+}
+
+#myWorkText {
+    color: aquamarine;
+    text-decoration: none;
 }
 
 .contact-info {

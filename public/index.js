@@ -3,8 +3,8 @@
 // const session = require('express-session');
 const http = require('http');
 
-const app = express();
-const PORT = process.env.PORT || 3001
+// const app = express();
+const PORT = process.env.PORT || 3000
 
 const server = http.createServer((req, res) => {
   // Set the response HTTP header with HTTP status and Content type
@@ -13,11 +13,11 @@ const server = http.createServer((req, res) => {
   res.end('Hello World!');
 })
 
-app.engine('handlebars', exphbs({ extname: '.handlebars' }));
-app.set('view engine', 'handlebars');
+// app.engine('handlebars', exphbs({ extname: '.handlebars' }));
+// app.set('view engine', 'handlebars');
 
-app.use(express.json());
-app.use(express.static(('public')));
+// app.use(express.json());
+// app.use(express.static(('public')));
 
 // app.use(session({
 //     secret: 'dyno dog',
